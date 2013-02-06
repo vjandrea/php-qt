@@ -1,0 +1,154 @@
+2007-012-10  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* added layout support for user interface compiler
+
+2007-012-09  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* ported to MacOS (Leopard)
+
+2007-009-23  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* implemented handler of method '__clone'
+	* unittests for references and copies of objects
+
+2007-009-23  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* ownership of objects belong to the script when created by it
+
+2007-009-22  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* wrote tutorial 11
+
+2007-009-22  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* improved calling of ambiguous methods
+
+2007-009-14  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* added a well-defined context for threads
+
+2007-009-14  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* wrote tutorial 10
+
+2007-009-12  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* code for metaobjects refactored
+
+2007-009-09  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* automatic conversion of double into long and opposite
+
+2007-009-08  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* wrote tutorial 9
+
+2007-009-08  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* fixed scope of member variables
+
+2007-009-07  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* allocating more memory for marshalling 'double'
+
+2007-009-03  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* code for calling slots refactored
+
+2007-008-31  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* implemented user interface compiler for PHP
+
+2007-008-31  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* QString::fromUtf8()
+
+2007-008-27  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	* implemented arguments for custom signals which now can be connected to any Qt or custom slots
+
+2007-007-12  Katrina Niolet <katrina@niolet.name>
+
+	        * Updated installation instructions to include step by step proccess for building outside of the source tree
+	
+2007-007-12  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+                * virtual method calls improved (memory issues)
+		* internally re-organized
+		* references improved
+
+2007-005-20  Thomas Moenicke <thomas.moenicke@kdemail.net>
+	
+		* mapping of zend object instead of zval
+
+2007-003-22  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+		* call of virtual methods
+
+2007-003-22  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+		* call of overwritten protected methods
+
+2007-003-22  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+		* signal handler added
+
+2007-003-21  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+		* object oriented handlers (see QtRuby)
+
+2007-003-4  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+		* Debugging for metaobject system added
+		* parent_ce_ptr
+
+2007-003-4  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+		* handling of QString - string in return and argument types
+		* more tests added
+
+2007-002-27  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+		* implemented constantHandler which fetchs constants from Qt
+		* registered QString
+		* improved inheritance
+		* added unittests
+
+2007-002-25  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+		* replaced the :: operator
+		* cached the class_entry table
+
+2007-002-19  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+		* new cmake build system added
+		* implemented QString since it is not in Smoke
+		* Updated copies of smoke and kalyptus
+
+2006-011-18  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+		* method argument handling: support for arrays, references
+		* some enums added
+		* internal function check_function
+		* fixed some minor bugs
+
+2006-011-7  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+		* function tr() implemented
+
+2006-011-5  Thomas Moenicke <thomas.moenicke@kdemail.net>
+
+		* Code rewritten and ported to kdebindings::Smoke
+		* all classes and methods are supported with basic argument types and classes
+		* enum values are like eg Qt::Horizontal instead of QT_ALIGNMENT_HORIZONTAL
+		* License: GPL
+		* PHP-Qt objects are casted automatically
+		* QMetaObjects are created in class constructor and related pointers are stored in a hash table
+
+2006-06-08  Thomas Moenicke <tm@ippfp.org>  (v.0.0.3) "Lilli"
+
+		* tutorial 7 and an example application
+		* automatically conversion of PHP strings into QStrings in method calls
+		* function 'qobject_cast' implemented
+		* handling of all allowed arguments in methods, with fast lookup table for inheritance
+		* Signals-Slots and custom Signals-Slots implemented
+		* better error handling for debugging
+		* #ifdef statements to exclude unimplemented classes to compile safely
+		* kalyptus extension rewritten
+
+2006-01-23  Thomas Moenicke  <tm@ippfp.org> (v.0.0.2) "Fridolin"
+
+        * a lot of new classes added
+		* kalyptus extension written
+		* multiple inheritance added
+		* method overloading added
+		* tutorials (1-6) added
+		* UTF-8/UTF-16 support prepared
+		* objects are stored in a way that ensures safety
+
+2005-11-06  Thomas Moenicke  <tm@ippfp.org> (v.0.0.1)
+
+		* initial import

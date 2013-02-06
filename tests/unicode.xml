@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<test>
+	<data lang="en">This is a test text</data>
+	<data lang="hu">Árvíztűrő tükörfúrógép</data>
+	<data lang="jp">これはテストテキストである</data>
+	<data lang="ko">이것은 시험 원본 이다</data>
+	<data lang="ru">Это будет текст испытания</data>
+</test>

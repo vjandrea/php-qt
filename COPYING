@@ -1,0 +1,50 @@
+Licensing
+===============
+
+PHP-Qt licensing is dependent upon the license of the dynamically linked Qt library.
+In the case that the linked Qt library is Qt Open Source Edition, PHP-Qt is licensed under the terms of the GNU General Public License version 2.
+
+You may write commercial, proprietary, or otherwise non-free software only if you have purchased a commercial edition of Qt.
+Purchase of a commercial edition of Qt, however, does not entitle you to support (technical or otherwise) for PHP-Qt of any kind.
+Additionally the following conditions apply to PHP-Qt when linked against Qt Commercial Edition:
+
+1. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS
+TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE
+PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
+REPAIR OR CORRECTION.
+
+2. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
+INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
+OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED
+TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
+YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+3. By linking PHP-Qt against Qt Commercial Edition you indicate your acceptance of
+these conditions.
+
+If you want to develop Free or Open Source software for release under the GPL,
+you can link against the Qt Open Source Edition.
+
+Please note that PHP-Qt is dynamically linked against the Qt library and
+Qt header files are necessary for building PHP-Qt.
+
+More information can be found here:
+Qt licensing:			http://www.trolltech.com/products/qt/licenses/licensing/
+Qt Open Source Edition:	http://www.trolltech.com/download/opensource.html
+GPL License:			http://www.gnu.org/licenses/gpl.html
+
+
+Trademarks
+==========
+
+Qt is a trademark of Trolltech.
+
